@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/omega-icon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper" id="anchor-top">
+		<header class="header">
+			<div class="header__body">
+				<div class="hamburger hamburger--3dx">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+
+				<a href="#" class="header__logo"><img src="img/logos/logo.png" alt="#"></a>
+				<div class="header__icons">
+					<a href='#' class="header__icon" id="login-activator"><span class="qicon-account-logged-in"></span></a>
+				</div>
+			</div>
+
+		</header>
+		<main class="main">
+      <div class="betslip__header">
+				<div class="betslip__links">
+					<div class="betslip__betslip active">
+						<span class="betslip__betslip-icon">
+							<i class="qicon-money"></i>
+						</span>
+						<span class="betslip__betslip-text">Betslip</span>
+					</div>
+					<div class="betslip__mybets">
+						<span class="betslip__mybets-icon"> <svg class="svg-inline--fa fa-list-ul fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-ul" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 48a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm0 160a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm0 160a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm448 16H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"></path></svg><!-- <i class="fas fa-list-ul"></i> Font Awesome fontawesome.com --> </span>
+						<div class="betslip__mybets-text">My Bets</div>
+					</div>
+				</div>
+				<div class="betslip__container">
+					<div class="betslip__bottom">
+						<div class="betslip__money">$ 123,456,789.00</div>
+						<span class="betslip__arrow activated" id="footer-arrow"><span></span></span>
+						<span class="betslip__arrow-2 activated" id="footer-arrow-2"><span></span></span>
+					</div>
+				</div>
+			</div>
+      <div class="betslip_content open">
+				<div class="betslip open">
+					<nav class="betslip__navigation">
+						<ul class="betslip__list">
+							<li class="betslip__li" id="betslip-single"><span>Single </span></li>
+							<li class="betslip__li" id="betslip-multi"><span>Multi </span></li>
+							<li class="betslip__li active" id="betslip-special"><span>Special</span></li>
+						</ul>
+					</nav>
+					<div class="betslip__body">
+
+						<div class="betslip__single">
+							<div class="betslip__notification">
+								<div class="betslip__notification-top"> <svg class="svg-inline--fa fa-exclamation-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg><!-- <i class="fas fa-exclamation-circle"></i> Font Awesome fontawesome.com --> Your
+									selection is now unavailable</div>
+								<div class="betslip__notification-bottom">Please remove it and select another to
+									continue</div>
+							</div>
+							<div class="betslip__cards">
+								<div class="betslip__card betslip__card_disabled">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-commands">
+												<span class="betslip__card-command">Pusamania Borneo</span>
+												<p>vs</p>
+												<span class="betslip__card-command">Barito Putera</span>
+											</div>
+											<div class="betslip__card-win">Win/Draw/Win - 90 Mins</div>
+											<div class="betslip__card-stake">
+												<span>Stake:</span> <span class="betslip__card-input">
+													<span>MAX</span>
+													<input disabled="" type="text" name="input-stake" placeholder="0">
+													
+												</span>
+											</div>
+											<div class="betslip__card-returns">
+												<span>Potential Returns:</span><span>USD 100.00</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="betslip__card">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-commands">
+												<span class="betslip__card-command">Pusamania Borneo</span>
+												<p>vs</p>
+												<span class="betslip__card-command">Barito Putera</span>
+											</div>
+											<div class="betslip__card-win">Win/Draw/Win - 90 Mins</div>
+											<div class="betslip__card-stake">
+												<span>Stake:</span> <span class="betslip__card-input">
+													<span>MAX</span>
+													<input type="text" name="input-stake" placeholder="5">
+													
+												</span>
+											</div>
+											<div class="betslip__card-returns">
+												<span>Potential Returns:</span><span>USD 100.00</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="betslip__multi">
+							<div class="betslip__notification">
+								<div class="betslip__notification-top"> <svg class="svg-inline--fa fa-exclamation-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg><!-- <i class="fas fa-exclamation-circle"></i> Font Awesome fontawesome.com --> Your
+									selection is now unavailable</div>
+								<div class="betslip__notification-bottom">Please remove it and select another to
+									continue</div>
+							</div>
+							<div class="betslip__cards">
+								<div class="betslip__card">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-commands">
+												<span class="betslip__card-command">Pusamania Borneo</span>
+												<p>vs</p>
+												<span class="betslip__card-command">Barito Putera</span>
+											</div>
+											<div class="betslip__card-win">Win/Draw/Win - 90 Mins</div>
+										</div>
+									</div>
+								</div>
+								<div class="betslip__card">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-commands">
+												<span class="betslip__card-command">Pusamania Borneo</span>
+												<p>vs</p>
+												<span class="betslip__card-command">Barito Putera</span>
+											</div>
+											<div class="betslip__card-win">Win/Draw/Win - 90 Mins</div>
+										</div>
+									</div>
+								</div>
+								<div class="betslip__card">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-stake">
+												<span>Stake:</span> <span class="betslip__card-input">
+													<input type="text" name="input-stake" placeholder="5">
+													
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="betslip__special active">
+							<div class="betslip__notification">
+								<div class="betslip__notification-top"> <svg class="svg-inline--fa fa-exclamation-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg><!-- <i class="fas fa-exclamation-circle"></i> Font Awesome fontawesome.com --> Your
+									selection is now unavailable</div>
+								<div class="betslip__notification-bottom">Please remove it and select another to
+									continue</div>
+							</div>
+							<div class="betslip__cards">
+								<div class="betslip__card">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-commands">
+												<span class="betslip__card-command">Pusamania Borneo</span>
+												<p>vs</p>
+												<span class="betslip__card-command">Barito Putera</span>
+											</div>
+											<div class="betslip__card-win">Win/Draw/Win - 90 Mins</div>
+										</div>
+									</div>
+								</div>
+								<div class="betslip__card">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-commands">
+												<span class="betslip__card-command">Pusamania Borneo</span>
+												<p>vs</p>
+												<span class="betslip__card-command">Barito Putera</span>
+											</div>
+											<div class="betslip__card-win">Win/Draw/Win - 90 Mins</div>
+										</div>
+									</div>
+								</div>
+								<div class="betslip__card betslip__card_disabled">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-commands">
+												<span class="betslip__card-command">Pusamania Borneo</span>
+												<p>vs</p>
+												<span class="betslip__card-command">Barito Putera</span>
+											</div>
+											<div class="betslip__card-win">Win/Draw/Win - 90 Mins</div>
+										</div>
+									</div>
+								</div>
+								<div class="betslip__card betslip__card_disabled">
+									<div class="betslip__card-container">
+										<div class="betslip__card-head">
+											<span class="betslip__card-cross"><svg class="svg-inline--fa fa-times-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg><!-- <i class="fas fa-times-circle"></i> Font Awesome fontawesome.com --></span>
+											<span class="betslip__card-title">Home United FC</span>
+											<span class="betslip__card-coeficient">
+												<span>1.58</span>
+											</span>
+										</div>
+										<div class="betslip__card-body">
+											<div class="betslip__card-stake">
+												<span>Stake:</span> <span class="betslip__card-input">
+													<input disabled="" type="text" name="input-stake" placeholder="0">
+													
+												</span>
+											</div>
+											<div class="betslip__card-returns">
+												<span>Total stake:</span><span>USD 100.00</span>
+											</div>
+											<div class="betslip__card-returns">
+												<span>Potential Returns:</span><span>USD 100.00</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="betslip__bottom">
+							<span class="betslip__remove">
+								<svg class="svg-inline--fa fa-trash fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="trash" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"></path></svg><!-- <i class="fas fa-trash"></i> Font Awesome fontawesome.com -->
+								<span>Remove All</span>
+							</span>
+							<div class="betslip__buttons">
+								<div class="betslip__select">
+									<span>
+										Select Stake:
+									</span>
+									<span class="betslip__clear">clear</span>
+								</div>
+								<div class="betslip__row">
+									<button class="betslip__button">5,000</button>
+									<button class="betslip__button">10,000</button>
+									<button class="betslip__button">20,000</button>
+
+
+									<button class="betslip__button">30,000</button>
+									<button class="betslip__button">50,000</button>
+									<button class="betslip__button">1,000,000</button>
+
+
+									<button class="betslip__button">2,000,000</button>
+									<button class="betslip__button">5,000,000</button>
+								</div>
+							</div>
+							<div class="betslip__summary">
+								<div class="betslip__total"> <span>Total Stake:</span><span>USD 100.00</span> </div>
+								<div class="betslip__returns"> <span>Potential Returns:</span><span>USD 158.00</span>
+								</div>
+								<div class="betslip__confirm"><button>Place Bet</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<div class="bet-popup bet-popup_success">
+			<div class="bet-popup__body">
+				<div class="bet-popup__content">
+					<div class="bet-popup__header">
+						<h3>Success</h3>
+					</div>
+					<div class="bet-popup__main">
+						<div class="bet-popup__result">
+							<i>
+
+							</i>
+							<span>Transaction completed</span>
+						</div>
+						<p class="bet-popup__text">Your bet has been successfully completed</p>
+						<div class="bet-popup__buttons">
+							<button class="bet-popup__button">Previous Selections</button>
+							<button class="bet-popup__button"> New Bets</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bet-popup bet-popup_error">
+			<div class="bet-popup__body">
+				<div class="bet-popup__content">
+					<div class="bet-popup__header">
+						<h3>Success</h3>
+					</div>
+					<div class="bet-popup__main">
+						<div class="bet-popup__result">
+							<i>
+
+							</i>
+							<span>Transaction completed</span>
+						</div>
+						<p class="bet-popup__text">Your bet has been successfully completed</p>
+						<div class="bet-popup__buttons">
+							<button class="bet-popup__button">Previous Selections</button>
+							<button class="bet-popup__button"> New Bets</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

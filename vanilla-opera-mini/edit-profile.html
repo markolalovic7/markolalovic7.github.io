@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/omega-icon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper" id="anchor-top">
+		<header class="header">
+			<div class="header__body">
+				<div class="hamburger hamburger--3dx">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+				<a href="#" class="header__logo"><img src="img/logos/logo.png" alt="#"></a>
+				<div class="header__icons">
+					<a href='#' class="header__icon" id="login-activator"><span class="qicon-account-logged-in"></span></a>
+				</div>
+			</div>
+
+		</header>
+		<main class="main">
+			<h1 class="main__title">Edit Profile</h1>
+			<div class="main__container">
+				<div class="form">
+					<h2 class="form__title">
+						Personal Details
+					</h2>
+					<form action="#">
+						<div class="form__container">
+							<div class="input ">
+								<h4 class="input__title">
+									Title
+								</h4>
+								<input type="text" name="Balance" placeholder="Title">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Name
+								</h4>
+								<input type="text" name="Demo" placeholder="Name">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Surname
+								</h4>
+								<input type="text" name="Account" placeholder="Surname">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Date of Birth
+								</h4>
+								<input type="text" name="Date of Birth" placeholder="1921-01-01">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Address 1
+								</h4>
+								<input type="text" name="Address 1" placeholder="test">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Address 2
+								</h4>
+								<input type="text" name="Address 2">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Address 3
+								</h4>
+								<input type="text" name="Address 3">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Address 4
+								</h4>
+								<input type="text" name="Address 4">
+								</input>
+							</div>
+							<div class="input input_disabled">
+								<h4 class="input__title">
+									Country
+								</h4>
+								<input type="text" name="Country" placeholder="Korea, Republic of" disabled>
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Postcode
+								</h4>
+								<input type="text" name="Postcode ">
+								</input>
+							</div>
+							<div class="input">
+								<h4 class="input__title">
+									Mobile Number <span class="input__star">*</span>
+								</h4>
+								<input type="text" name="Mobile Number" placeholder="0987654321" required>
+								</input>
+							</div>
+							<div class="input">
+								<h4 class="input__title">
+									Mobile Number 2
+								</h4>
+								<input type="text" name="Mobile Number 2">
+								</input>
+							</div>
+							<div class="input">
+								<h4 class="input__title">
+									Mobile Number 3
+								</h4>
+								<input type="text" name="Mobile Number 3">
+								</input>
+							</div>
+							<div class="input input_disabled">
+								<h4 class="input__title">
+									Amount:<span class="input__star">*</span>
+								</h4>
+								<div class="form__select">
+									<select disabled>
+										<option value="" disabled selected hidden>English (United Kingdom)</option>
+										<option>English (United Kingdom)</option>
+										<option>English (United Kingdom)</option>
+										<option>English (United Kingdom)</option>
+										<option>English (United Kingdom)</option>
+										<option>English (United Kingdom)</option>
+										<option>English (United Kingdom)</option>
+										<option>English (United Kingdom)</option>
+
+									</select>
+									<!-- <span class="form__select-arrow"><span></span></span> -->
+								</div>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Price Format
+								</h4>
+								<input type="text" name="Price Format" placeholder="EURO">
+								</input>
+							</div>
+							<div class="input input_disabled">
+								<h4 class="input__title">
+									Currency
+								</h4>
+								<input type="text" name="Currency" placeholder="USD" disabled>
+								</input>
+							</div>
+							<h3 class="form__label">Account Details </h3>
+							<div class="input input_disabled">
+								<h4 class="input__title">
+									Email
+								</h4>
+								<input type="email" name="Email " placeholder="demo0816@yopmail.com" disabled>
+								</input>
+							</div>
+							<div class="input">
+								<h4 class="input__title">
+									Pin <span class="input__text-grey">(6-Digt Pin)</span> <span class="input__star">*</span>
+								</h4>
+								<input type="password" name="password-pin" value="placehol">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Security Question
+								</h4>
+								<input type="text" name="Security Question  " placeholder="Favourite Team">
+								</input>
+							</div>
+							<div class="input ">
+								<h4 class="input__title">
+									Security Answer
+								</h4>
+								<input type="text" name="Security Answer" placeholder="Test">
+								</input>
+							</div>
+							<button class="form__button">Update</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+</html>

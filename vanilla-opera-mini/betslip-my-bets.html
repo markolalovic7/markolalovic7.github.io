@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/omega-icon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper" id="anchor-top">
+		<header class="header">
+			<div class="header__body">
+				<div class="hamburger hamburger--3dx">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+
+				<a href="#" class="header__logo"><img src="img/logos/logo.png" alt="#"></a>
+				<div class="header__icons">
+					<a href='#' class="header__icon" id="login-activator"><span class="qicon-account-logged-in"></span></a>
+				</div>
+			</div>
+
+		</header>
+		<main class="main">
+      <div class="betslip__header">
+				<div class="betslip__links">
+					<div class="betslip__betslip">
+						<span class="betslip__betslip-icon">
+							<i class="qicon-money"></i>
+						</span>
+						<span class="betslip__betslip-text">Betslip</span>
+					</div>
+					<div class="betslip__mybets active">
+						<span class="betslip__mybets-icon"> <svg class="svg-inline--fa fa-list-ul fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-ul" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 48a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm0 160a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm0 160a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm448 16H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"></path></svg><!-- <i class="fas fa-list-ul"></i> Font Awesome fontawesome.com --> </span>
+						<div class="betslip__mybets-text">My Bets</div>
+					</div>
+				</div>
+				<div class="betslip__container">
+					<div class="betslip__bottom">
+						<div class="betslip__money">$ 123,456,789.00</div>
+						<span class="betslip__arrow activated" id="footer-arrow"><span></span></span>
+						<span class="betslip__arrow-2 activated" id="footer-arrow-2"><span></span></span>
+					</div>
+				</div>
+			</div>
+      <div class="betslip_content open">
+				<div class="mybets active">
+					<div class="mybets__container">
+						<div class="mybets__card" id="bets-card-1">
+							<div class="mybets__card-header">
+								<h3 class="mybets__card-title">Single</h3>
+							</div>
+							<div class="mybets__card-body">
+								<span class="mybets__card-country"> <i class="qicon-aurl"></i> England @
+									4.61</span>
+								<span class="mybets__card-winner">Rugby Union World Cup - Winner</span>
+								<span class="mybets__card-outright">Outright - 80 Mins</span>
+								<div class="mybets__card-stake"><span>Bet Stake: 10</span><span class="mybets__arrow mybets__arrow_up"></span>
+								</div>
+								<div class="mybets__cash active" id="bets-cash-1">
+									<div class="mybets__cash-top">
+										<div class="mybets__cash-stake">Cash Out Stake: 10</div>
+										<div class="mybets__cash-profit"> <span>Profit:</span><span> -0.75</span> </div>
+									</div>
+									<div class="mybets__cash-range">
+										<div class="mybets__range-result">
+											<div id="betslip-range-result-1">1</div>%
+										</div>
+										<div class="mybets__range">
+											<div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-1">
+												<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;">
+
+												</a>
+												<input multiple="" id="znch1" name="znch" type="hidden" min="1" max="100">
+											<div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0%;"></div></div>
+										</div>
+									</div>
+									<button class="mybets__cash-button">Cash out (USD 9.25)</button>
+								</div>
+							</div>
+
+						</div>
+						<div class="mybets__card" id="bets-card-2">
+							<div class="mybets__card-header">
+								<h3 class="mybets__card-title">Doubles - 3 Bets</h3>
+							</div>
+							<div class="mybets__card-body">
+								<span class="mybets__card-country"> <i class="qicon-dart"></i> van Germen, Michael @
+									2.54</span>
+								<span class="mybets__card-winner">PDC World Championship - Winner</span>
+								<span class="mybets__card-outright">Outright - Match</span>
+								<span class="mybets__card-country"> <i class="qicon-foot"></i>SL BENFICA @ 1.90</span>
+								<span class="mybets__card-winner">Campeonato Nacional da I Divisao de Futsal -
+									Winner</span>
+								<span class="mybets__card-outright">Outright - 40 Mins</span>
+								<div class="mybets__card-stake"><span>Bet Stake: 30</span><span class="mybets__arrow mybets__arrow_up"></span>
+								</div>
+								<div class="mybets__cash active" id="bets-cash-2">
+									<div class="mybets__cash-top">
+										<div class="mybets__cash-stake">Cash Out Stake: 10</div>
+										<div class="mybets__cash-profit"> <span>Profit:</span><span> -0.75</span> </div>
+									</div>
+									<div class="mybets__cash-range">
+										<div class="mybets__range-result">
+											<div id="betslip-range-result-2">1</div>%
+										</div>
+										<div class="mybets__range">
+											<div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-2">
+												<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;">
+
+												</a>
+												<input multiple="" id="znch2" name="znch" type="hidden" min="1" max="100">
+											<div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0%;"></div></div>
+										</div>
+									</div>
+									<button class="mybets__cash-button">Cash out (USD 9.25)</button>
+								</div>
+							</div>
+
+						</div>
+						<div class="mybets__card" id="bets-card-3">
+							<div class="mybets__card-header">
+								<h3 class="mybets__card-title">Doubles</h3>
+							</div>
+							<div class="mybets__card-body">
+								<span class="mybets__card-country"> <i class="qicon-dart"></i> van Germen, Michael @
+									2.54</span>
+								<span class="mybets__card-winner">PDC World Championship - Winner</span>
+								<span class="mybets__card-outright">Outright - Match</span>
+								<span class="mybets__card-country"> <i class="qicon-foot"></i>SL BENFICA @ 1.90</span>
+								<span class="mybets__card-winner">Campeonato Nacional da I Divisao de Futsal -
+									Winner</span>
+								<span class="mybets__card-outright">Outright - 40 Mins</span>
+								<div class="mybets__card-stake"><span>Bet Stake: 30</span><span class="mybets__arrow"></span>
+								</div>
+								<div class="mybets__cash" id="bets-cash-3">
+									<div class="mybets__cash-top">
+										<div class="mybets__cash-stake">Cash Out Stake: 10</div>
+										<div class="mybets__cash-profit"> <span>Profit:</span><span> -0.75</span> </div>
+									</div>
+									<div class="mybets__cash-range">
+										<div class="mybets__range-result">
+											<div id="betslip-range-result-3">1</div>%
+										</div>
+										<div class="mybets__range">
+											<div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-3">
+												<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;">
+
+												</a>
+												<input multiple="" id="znch3" name="znch" type="hidden" min="1" max="100">
+											<div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0%;"></div></div>
+										</div>
+									</div>
+									<button class="mybets__cash-button">Cash out (USD 9.25)</button>
+								</div>
+							</div>
+
+						</div>
+						<div class="mybets__card" id="bets-card-4">
+							<div class="mybets__card-header">
+								<h3 class="mybets__card-title">Doubles</h3>
+							</div>
+							<div class="mybets__card-body">
+								<span class="mybets__card-country"> <i class="qicon-dart"></i> van Germen, Michael @
+									2.54</span>
+								<span class="mybets__card-winner">PDC World Championship - Winner</span>
+								<span class="mybets__card-outright">Outright - Match</span>
+								<span class="mybets__card-country"> <i class="qicon-foot"></i>SL BENFICA @ 1.90</span>
+								<span class="mybets__card-winner">Campeonato Nacional da I Divisao de Futsal -
+									Winner</span>
+								<span class="mybets__card-outright">Outright - 40 Mins</span>
+								<div class="mybets__card-stake"><span>Bet Stake: 30</span><span class="mybets__arrow"></span>
+								</div>
+								<div class="mybets__cash" id="bets-cash-4">
+									<div class="mybets__cash-top">
+										<div class="mybets__cash-stake">Cash Out Stake: 10</div>
+										<div class="mybets__cash-profit"> <span>Profit:</span><span> -0.75</span> </div>
+									</div>
+									<div class="mybets__cash-range">
+										<div class="mybets__range-result">
+											<div id="betslip-range-result-4">1</div>%
+										</div>
+										<div class="mybets__range">
+											<div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-4">
+												<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;">
+
+												</a>
+												<input multiple="" id="znch4" name="znch" type="hidden" min="1" max="100">
+											<div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0%;"></div></div>
+										</div>
+									</div>
+									<button class="mybets__cash-button">Cash out (USD 9.25)</button>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<div class="bet-popup bet-popup_success">
+			<div class="bet-popup__body">
+				<div class="bet-popup__content">
+					<div class="bet-popup__header">
+						<h3>Success</h3>
+					</div>
+					<div class="bet-popup__main">
+						<div class="bet-popup__result">
+							<i>
+
+							</i>
+							<span>Transaction completed</span>
+						</div>
+						<p class="bet-popup__text">Your bet has been successfully completed</p>
+						<div class="bet-popup__buttons">
+							<button class="bet-popup__button">Previous Selections</button>
+							<button class="bet-popup__button"> New Bets</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bet-popup bet-popup_error">
+			<div class="bet-popup__body">
+				<div class="bet-popup__content">
+					<div class="bet-popup__header">
+						<h3>Success</h3>
+					</div>
+					<div class="bet-popup__main">
+						<div class="bet-popup__result">
+							<i>
+
+							</i>
+							<span>Transaction completed</span>
+						</div>
+						<p class="bet-popup__text">Your bet has been successfully completed</p>
+						<div class="bet-popup__buttons">
+							<button class="bet-popup__button">Previous Selections</button>
+							<button class="bet-popup__button"> New Bets</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/omega-icon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper" id="anchor-top">
+		<header class="header">
+			<div class="header__body">
+				<div class="hamburger hamburger--3dx">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+
+				<a href="#" class="header__logo"><img src="img/logos/logo.png" alt="#"></a>
+				<div class="header__icons">
+					<a href='Search-2.html' class="header__icon header__icon_active header__icon_search"><span
+							class="qicon-search"></span></a>
+					<a href='#' class="header__icon" id="login-activator"><span class="qicon-account-login"></span></a>
+				</div>
+			</div>
+
+		</header>
+		<main class="main">
+			<div class="search">
+				<div class="search__input">
+					<x-field>
+						<input type="text" id="search-input" placeholder="Type event name"></input>
+						<span class="search__close" onclick="this.previousElementSibling.value = ''">
+							<i class="fas fa-times-circle"></i>
+						</span>
+					</x-field>
+				</div>
+				<div class="search__wrapper">
+					<div class="search__container">
+						<div class="search__box-left">
+							<div class="search__item-left-1">
+								<span class="search__icon search__icon_transparent"> <i class="qicon-bask"></i> </span>
+								<span class="search__icon search__icon_translucent"> <i class="qicon-cric"></i> </span>
+							</div>
+							<div class="search__item-left-2">
+								<span class="search__icon search__icon_transparent"> <i class="qicon-foot"></i> </span>
+								<span class="search__icon search__icon_translucent"> <i class="qicon-iceh"></i> </span>
+								<span class="search__icon"> <i class="qicon-base"></i> </span>
+							</div>
+							<div class="search__item-left-3">
+								<span class="search__icon search__icon_transparent"> <i class="qicon-coun"></i> </span>
+								<span class="search__icon search__icon_translucent"> <i class="qicon-squa"></i> </span>
+							</div>
+						</div>
+						<div class="search__loupe">
+							<i class="qicon-search"></i><span class="search__icon_red"> <i class="qicon-cric"></i>
+							</span>
+						</div>
+						<div class="search__box-right">
+
+							<div class="search__item-right-1">
+								<span class="search__icon search__icon_translucent
+								"> <i class="qicon-rugb"></i> </span>
+								<span class="search__icon search__icon_transparent"> <i class="qicon-bevo"></i> </span>
+							</div>
+							<div class="search__item-right-2">
+								<span class="search__icon"> <i class="qicon-badm"></i> </span>
+
+								<span class="search__icon search__icon_translucent"> <i class="qicon-futs"></i> </span>
+								<span class="search__icon search__icon_transparent"> <i class="qicon-mosp"></i> </span>
+
+							</div>
+							<div class="search__item-right-3">
+								<span class="search__icon search__icon_translucent
+								"> <i class="qicon-boxi"></i> </span>
+								<span class="search__icon search__icon_transparent"> <i class="qicon-cycl"></i> </span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<h1 class="search__title">
+					No results found
+				</h1>
+				<h4 class="search__subtitle">
+					<p> Seems, the event you are looking for doesn’t exist.</p>
+					<p> Check the spelling or find another event.</p>
+				</h4>
+			</div>
+		</main>
+	</div>
+</body>
+</html>

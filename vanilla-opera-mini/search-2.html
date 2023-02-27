@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/omega-icon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper" id="anchor-top">
+		<header class="header">
+			<div class="header__body">
+				<div class="hamburger hamburger--3dx">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+
+				<a href="#" class="header__logo"><img src="img/logos/logo.png" alt="#"></a>
+				<div class="header__icons">
+					<a href='Search-2.html' class="header__icon header__icon_active header__icon_search"><span
+							class="qicon-search"></span></a>
+					<a href='#' class="header__icon" id="login-activator"><span class="qicon-account-login"></span></a>
+				</div>
+			</div>
+
+		</header>
+		<main class="main">
+			<div class="search">
+				<div class="search__input">
+					<x-field>
+						<input type="text" id="search-input" placeholder="Type event name"></input>
+						<span class="search__close" onclick="this.previousElementSibling.value = ''">
+							<i class="fas fa-times-circle"></i>
+						</span>
+					</x-field>
+				</div>
+				<div class="search__wrapper">
+					<div class="search__icons">
+						<div class="search__row-1"><span class="search__icon"> <i class="qicon-cric"></i> </span></div>
+						<div class="search__row-2"><span class="search__icon"> <i class="qicon-base"></i> </span> <span
+								class="search__icon"> <i class="qicon-badm"></i> </span></div>
+						<div class="search__row-3"><span class="search__icon"> <i class="qicon-coun"></i> </span> <span
+								class="search__icon"> <i class="qicon-iceh"></i> </span></div>
+						<div class="search__row-4"><span class="search__icon"> <i class="qicon-bevo"></i> </span> <span
+								class="search__icon"> <i class="qicon-dart"></i> </span><span class="search__icon"> <i
+									class="qicon-futs"></i> </span></div>
+						<div class="search__row-5"><span class="search__icon"> <i class="qicon-cycl"></i> </span> <span
+								class="search__icon"> <i class="qicon-floo"></i> </span></div>
+						<div class="search__row-6"><span class="search__icon"> <i class="qicon-boxi"></i> </span> <span
+								class="search__icon"> <i class="qicon-bask"></i> </span></div>
+						<div class="search__row-7"><span class="search__icon"> <i class="qicon-aurl"></i> </span></div>
+					</div>
+				</div>
+				<h1 class="search__title">
+					Start event searching
+				</h1>
+				<h4 class="search__subtitle">
+					Many sports events around you. Find yours!
+				</h4>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
