@@ -6492,12 +6492,14 @@ button.bet__coeficient {
   margin-right: 3px;
   min-height: 50px; }
   button.bet__coeficient span.bet__coeficient-name, button.bet__coeficient p.bet__coeficient-name {
-    display: inline-block; }
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
-      max-width: 100%; }
+      max-width: unset; }
 
 .matches__elements.matches__elements_wheat .bet__coeficient-name span.bet__coeficient-ellipsis {
-  max-width: 100%; }
+  max-width: unset; }
 
 .bet__container .bet__header .bet__header-container {
   display: flex;
