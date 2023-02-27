@@ -6494,10 +6494,10 @@ button.bet__coeficient {
   button.bet__coeficient span.bet__coeficient-name, button.bet__coeficient p.bet__coeficient-name {
     display: inline-block; }
     button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
-      max-width: unset; }
+      max-width: 100%; }
 
 .matches__elements.matches__elements_wheat .bet__coeficient-name span.bet__coeficient-ellipsis {
-  max-width: unset; }
+  max-width: 100%; }
 
 .bet__container .bet__header .bet__header-container {
   display: flex;
