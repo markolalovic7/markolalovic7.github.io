@@ -6488,11 +6488,13 @@ button.bet__coeficient {
   min-height: 50px; }
   button.bet__coeficient span.bet__coeficient-name, button.bet__coeficient p.bet__coeficient-name {
     overflow: hidden;
+    text-align: left;
     text-overflow: ellipsis;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: left; }
+    display: block;
+    text-align: center; }
     button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
       max-width: 40px;
       display: inline-block;
