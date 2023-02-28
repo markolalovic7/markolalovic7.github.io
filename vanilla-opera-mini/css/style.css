@@ -1157,13 +1157,11 @@ body.lock10 {
   justify-content: center; }
   .bet__team p {
     word-break: break-word;
-    display: block;
     color: #000000;
     font-weight: 700;
     text-transform: uppercase;
     width: 100%;
     max-width: 120px;
-    font-weight: 11px;
     line-height: 1;
     clear: both;
     display: inline-block;
@@ -6493,10 +6491,12 @@ button.bet__coeficient {
     text-overflow: ellipsis;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    text-align: left; }
     button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
-      max-width: 50px;
-      display: block; }
+      max-width: 40px;
+      display: inline-block;
+      text-align: left; }
 
 .bet__container .bet__header .bet__header-container {
   display: flex;
