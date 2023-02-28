@@ -6601,18 +6601,18 @@ main {
   max-width: 18%; }
 
 .nav-opera-mini__arrows.left-wrapper {
-  width: 100%;
+  width: 100% !important;
   height: 65px;
   padding: 0;
-  width: 45px;
+  max-width: unset !important;
   min-width: 45px;
   border-left: 1px solid #2e2e2e; }
 
 .nav-opera-mini__arrows.right-wrapper {
-  width: 100%;
+  width: 100% !important;
   height: 65px;
   padding: 0;
-  width: 45px;
+  max-width: unset !important;
   min-width: 45px;
   border-right: 1px solid #2e2e2e; }
 
@@ -6815,8 +6815,6 @@ main {
   .nav-opera-mini tr {
     width: 375px; }
   .navigation-slider .sports {
-    width: 375px;
-    max-width: 375px;
     justify-content: center;
     margin: 0 auto; }
   .custom-select {
