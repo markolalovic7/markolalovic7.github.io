@@ -2867,6 +2867,8 @@ body.lock10 {
 .match-tracker {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
   margin: 5px 0 0; }
+  .match-tracker button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, .match-tracker button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
+    max-width: 60px; }
 
 .match-tracker__header {
   border-radius: 4px 4px 0 0;
