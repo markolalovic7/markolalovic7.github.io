@@ -6497,7 +6497,7 @@ button.bet__coeficient {
     justify-content: center; }
     button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
       max-width: unset;
-      max-width: 70px; }
+      max-width: 50px; }
 
 .matches__elements.matches__elements_wheat .bet__coeficient-name span.bet__coeficient-ellipsis {
   max-width: 70px; }
