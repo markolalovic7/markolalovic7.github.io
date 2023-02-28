@@ -6492,6 +6492,8 @@ button.bet__coeficient {
     overflow: hidden;
     text-overflow: ellipsis;
     display: inline-block; }
+    button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
+      max-width: 70px; }
 
 .bet__container .bet__header .bet__header-container {
   display: flex;
