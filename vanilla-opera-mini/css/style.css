@@ -6494,7 +6494,8 @@ button.bet__coeficient {
   button.bet__coeficient span.bet__coeficient-name, button.bet__coeficient p.bet__coeficient-name {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    max-width: 90px; }
     button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
       max-width: unset;
       max-width: 50px; }
