@@ -1244,15 +1244,12 @@ body.lock10 {
   margin: 0;
   line-height: 1;
   margin-bottom: 0; }
-  .bet__coeficient-name span.bet__coeficient-ellipsis {
-    max-width: 30px; }
   .bet__coeficient-name span {
     line-height: 1;
     vertical-align: middle;
     margin: 0; }
     .bet__coeficient-name span:not(span.bet__coeficient-ellipsis) {
       display: inline-block;
-      max-width: 50px;
       font-size: 10px; }
     .bet__coeficient-name span:last-child {
       white-space: nowrap; }
@@ -6492,16 +6489,9 @@ button.bet__coeficient {
   margin-right: 3px;
   min-height: 50px; }
   button.bet__coeficient span.bet__coeficient-name, button.bet__coeficient p.bet__coeficient-name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 90px; }
-    button.bet__coeficient span.bet__coeficient-name .bet__coeficient-ellipsis, button.bet__coeficient p.bet__coeficient-name .bet__coeficient-ellipsis {
-      max-width: unset;
-      max-width: 50px; }
-
-.matches__elements.matches__elements_wheat .bet__coeficient-name span.bet__coeficient-ellipsis {
-  max-width: 70px; }
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block; }
 
 .bet__container .bet__header .bet__header-container {
   display: flex;
